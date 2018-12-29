@@ -1,0 +1,15 @@
+.logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    overflow: hidden;
+    -webkit-transition: width 2s;
+     transition: width 2s;
+}
+.logo span{
+    font-weight: 600;
+}
