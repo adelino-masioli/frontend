@@ -9,7 +9,7 @@ export default class ComponentLayoutContent extends React.Component{
         return(
             <Content style={{ margin: '0px 16px 0' }}>
               <ComponentLayoutBreadcrumb/>
-              <div style={{ background: '#fff', padding: 24, minHeight: '100%' }}>Content</div>
+              <div style={{ background: '#fff', padding: 24, minHeight: '100%' }}>{this.props.children}</div>
             </Content>
         )
     }
